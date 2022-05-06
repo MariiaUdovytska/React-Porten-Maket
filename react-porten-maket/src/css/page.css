@@ -1,15 +1,27 @@
-/* .wrapper{
+.wrapper{
 	min-height: 100vh;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 }
 
+.page{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
 .containerM{
-	max-width: 1229px;
+	max-width: 1140px;
 	padding: 0px 15px;
 	margin: 0px auto;
 }
+
+/* 
 .titleM{
 	font-size: 1.7rem;
 	text-transform: uppercase;
@@ -23,3 +35,9 @@
 		text-align: center;
 	}
 } */
+
+.testM{
+	color: black;
+	flex: 1 1 auto;
+}
+.testMdiv{}

@@ -43,8 +43,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 html,body{
 	height: 100%;
 	font-size: 14px;
-	background-color: #fff;
 	line-height: 1;
+	color: #ffff;
 	font-family: -apple-system, BlinkMacSystemFont, 'PT Sans', sans-serif;
 }
 
