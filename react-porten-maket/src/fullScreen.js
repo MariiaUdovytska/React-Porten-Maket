@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/fullScreen.css';
+import Schedule from './Schedule';
 
 
 class FullScreen extends React.Component {
@@ -11,12 +12,12 @@ class FullScreen extends React.Component {
 			<section className='fullScreen'>
 				<div className='fullScreen__image'>
 					<div className='fullScreen__body'>
-						<div></div>
+						<Schedule/>
 						<div></div>
 						<div className='fullScreen__center containerM'>
 							<div className='fullScreen__center-logo'>
-								<div>Porten</div>
-								<p>City</p>
+								<div className='fullScreen__center-logo-name'>Porten</div>
+								<span>City</span>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
 						</div>

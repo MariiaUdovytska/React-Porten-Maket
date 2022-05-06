@@ -1,0 +1,24 @@
+.schedule{
+	background-color: black;
+	height: 44px;
+}
+.schedule__body{
+	font-size: 0.86rem;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.schedule__body-left img{
+	margin-right: 16px;
+}
+.schedule__body-right img{
+	margin-right: 16px;
+}
+.schedule__body-right a{
+	color: #fff;
+}
+.schedule__body-right a:hover{
+	color: rgb(172, 172, 172);
+}
