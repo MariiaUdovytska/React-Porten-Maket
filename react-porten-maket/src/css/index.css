@@ -44,7 +44,7 @@ html,body{
 	height: 100%;
 	font-size: 14px;
 	line-height: 1;
-	color: #ffff;
+	color: #ffff!important;
 	font-family: -apple-system, BlinkMacSystemFont, 'PT Sans', sans-serif;
 }
 
