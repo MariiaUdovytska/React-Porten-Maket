@@ -12,11 +12,10 @@ class FullScreen extends React.Component {
 	render(){
 		return(
 			<section className='fullScreen'>
+				<Schedule/>
+				<NavBarBootstrap/>
 				<div className='fullScreen__image'>
 					<div className='fullScreen__body'>
-						<Schedule/>
-						<NavBarBootstrap/>
-						<div></div>
 						<div className='fullScreen__center containerM'>
 							<div className='fullScreen__center-logo'>
 								<div className='fullScreen__center-logo-name'>Porten</div>

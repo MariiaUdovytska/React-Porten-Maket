@@ -15,15 +15,12 @@ class NavBarBootstrap extends React.Component {
 						<Navbar.Brand href="#home">Porten</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 						<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-							{/* <Nav className="me-auto">
-								<Nav.Link href="#features">Features</Nav.Link>
-								<Nav.Link href="#pricing">Pricing</Nav.Link>
-								
-							</Nav> */}
 							<Nav>
 								<Nav.Link href="#features">Понравилось</Nav.Link>
 								<Nav.Link href="#features">личный кабинет</Nav.Link>
 								<Nav.Link href="#features">настройки</Nav.Link>
+								<Nav.Link href="#features"><i class="bi bi-cart3" style={{ display: 'inline-flex', fontSize: '25px', color: 'white'}}></i></Nav.Link>
+								<Nav.Link href="#features" className='navBar__link-search'><i class="bi bi-search" style={{ display: 'inline-flex', fontSize: '25px', color: 'white'}}></i></Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
