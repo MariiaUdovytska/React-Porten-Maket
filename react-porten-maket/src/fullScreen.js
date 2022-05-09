@@ -1,6 +1,8 @@
 import React from 'react';
 import './css/fullScreen.css';
 import Schedule from './Schedule';
+import NavBarBootstrap from './NavBarBootstrap';
+
 
 
 class FullScreen extends React.Component {
@@ -13,6 +15,7 @@ class FullScreen extends React.Component {
 				<div className='fullScreen__image'>
 					<div className='fullScreen__body'>
 						<Schedule/>
+						<NavBarBootstrap/>
 						<div></div>
 						<div className='fullScreen__center containerM'>
 							<div className='fullScreen__center-logo'>

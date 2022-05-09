@@ -1,0 +1,14 @@
+.navBar{
+	background-color: #0F0F0F;
+}
+.container{
+	max-width: 1140px;
+	padding: 0px 15px;
+}
+.navbar-brand{
+	font-family: PostNoBillsJaffna;
+	font-weight: 700;
+	font-size: 2.57rem;
+	line-height: 57.3px;
+	text-transform: uppercase;
+}

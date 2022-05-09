@@ -18,6 +18,7 @@
 }
 .schedule__body-right a{
 	color: #fff;
+	text-decoration: none;
 }
 .schedule__body-right a:hover{
 	color: rgb(172, 172, 172);
