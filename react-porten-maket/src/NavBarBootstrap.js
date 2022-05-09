@@ -10,12 +10,12 @@ class NavBarBootstrap extends React.Component {
 	render(){
 		return(
 			<div className='navBar'>
-				<Navbar collapseOnSelect expand="lg" variant="dark" className='pt-0 pb-0'>
-					<Container className='h-100'>
+				<Navbar collapseOnSelect expand="lg" variant="dark">
+					<Container >
 						<Navbar.Brand href="#home">Porten</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-						<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end h-100">
-							<Nav className='h-100'>
+						<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+							<Nav >
 								<Nav.Link href="#features">Понравилось</Nav.Link>
 								<Nav.Link href="#features">личный кабинет</Nav.Link>
 								<Nav.Link href="#features">настройки</Nav.Link>
