@@ -7,8 +7,14 @@
 	padding: 0px 15px;
 	background-color: #0F0F0F;
 }
+
+@media (min-width: 992px){
+	.show{
+		background-color: #0F0F0F!important;
+	}
+}
 .show{
-	background-color: #1d1d1d;
+	background-color: #1b1b1b;
 }
 .navbar-brand{
 	font-family: PostNoBillsJaffna;
