@@ -10,17 +10,17 @@ class NavBarBootstrap extends React.Component {
 	render(){
 		return(
 			<div className='navBar'>
-				<Navbar collapseOnSelect expand="lg" variant="dark">
-					<Container>
+				<Navbar collapseOnSelect expand="lg" variant="dark" className='pt-0 pb-0'>
+					<Container className='h-100'>
 						<Navbar.Brand href="#home">Porten</Navbar.Brand>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-						<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-							<Nav>
+						<Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end h-100">
+							<Nav className='h-100'>
 								<Nav.Link href="#features">Понравилось</Nav.Link>
 								<Nav.Link href="#features">личный кабинет</Nav.Link>
 								<Nav.Link href="#features">настройки</Nav.Link>
-								<Nav.Link href="#features"><i class="bi bi-cart3" style={{ display: 'inline-flex', fontSize: '25px', color: 'white'}}></i></Nav.Link>
-								<Nav.Link href="#features" className='navBar__link-search'><i class="bi bi-search" style={{ display: 'inline-flex', fontSize: '25px', color: 'white'}}></i></Nav.Link>
+								<Nav.Link href="#features" className='noHover'><i class="bi bi-cart3" style={{ display: 'inline-flex', fontSize: '25px', color: 'white'}}></i></Nav.Link>
+								<Nav.Link href="#features" className='noHover'><i class="bi bi-search" style={{ display: 'inline-flex', fontSize: '25px', color: 'white'}}></i></Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
