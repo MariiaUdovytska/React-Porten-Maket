@@ -5,10 +5,12 @@
 	background-position: center;
 	background-size: cover;
 }
+
 .footer__body{
 	display: flex;
 	flex-direction: row;
-	padding: 80px 15px 100px ;
+	padding: 80px 0px 100px ;
+	margin: 0px -15px;
 }
 .footer__body-title{
 	font-family: 'Playfair Display', sans-serif;
@@ -19,15 +21,36 @@
 }
 .footer__body-left{
 	flex: 1 1 33.3333%;
+	padding: 0px 20px;
+}
+.footer__body-left p{
+	line-height: 1.5rem;
+	margin-bottom: 0px;
 }
 .footer__body-center{
 	flex: 1 1 33.3333%;
+	padding: 0px 20px;
 }
-.footer__body-center-btns{}
-.footer__body-center-btns-btn{}
+.footer__body-center-btns{
+	margin: 0px -10px;
+}
+.footer__body-center-btns span{
+	padding: 0px 10px;
+}
+.footer__body-center-btns button{
+	background-color: black;
+	color: #D0D0D0;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
 
 .footer__body-right{
 	flex: 1 1 33.3333%;
+	padding: 0px 20px;
+}
+.footer__body-right p{
+	line-height: 1.5rem;
+	margin-bottom: 0px;
 }
 .footer__body-right-mailUser{}
 .footer__body-right-input{}
