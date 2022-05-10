@@ -23,3 +23,25 @@
 .schedule__body-right a:hover{
 	color: rgb(172, 172, 172);
 }
+
+@media (max-width: 600px) {
+	.schedule__body{
+		font-size: 0.76rem;
+	}
+	.schedule__body-left img{
+		margin-right: 5px;
+	}
+	.schedule__body-left{
+		width: 100%;
+	}
+	.schedule__body-left span:last-child{
+		display: block;
+		margin-left: 17px;
+	}
+	.schedule__body-right img{
+		margin-right: 5px;
+	}
+	.schedule__body-right{
+		width: 90px;
+	}
+}
