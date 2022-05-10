@@ -2,6 +2,7 @@ import './css/page.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FullScreen from './fullScreen';
 import RightsReserved from './RightsReserved';
+import Footer from './Footer';
 // import {Button} from 'react-bootstrap';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 					<p>Quisque congue velit id odio rutrum sagittis at congue mi. Nulla at augue in lectus volutpat venenatis a eu arcu. Sed efficitur porttitor lectus. Mauris sit amet lorem justo. Duis cursus, dui quis dictum rhoncus, elit ipsum varius enim, id pharetra ex nunc sed enim. Fusce pharetra gravida dui. Etiam sed urna est. Nam gravida, nulla nec laoreet suscipit, eros sem cursus nulla, id finibus augue libero sed massa.</p>
 				</div>
 			</section>
+			<Footer/>
 			<RightsReserved/>
 		</div>
 	</div>
