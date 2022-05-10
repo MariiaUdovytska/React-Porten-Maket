@@ -1,0 +1,34 @@
+.footer{
+}
+.footer__img{
+	background-image: url(../img/footer/footer.png);
+	background-position: center;
+	background-size: cover;
+}
+.footer__body{
+	display: flex;
+	flex-direction: row;
+	padding: 80px 15px 100px ;
+}
+.footer__body-title{
+	font-family: 'Playfair Display', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.71rem;
+	line-height: 2.8rem;
+	margin-bottom: 40px;
+}
+.footer__body-left{
+	flex: 1 1 33.3333%;
+}
+.footer__body-center{
+	flex: 1 1 33.3333%;
+}
+.footer__body-center-btns{}
+.footer__body-center-btns-btn{}
+
+.footer__body-right{
+	flex: 1 1 33.3333%;
+}
+.footer__body-right-mailUser{}
+.footer__body-right-input{}
+.footer__body-right-btn{}
