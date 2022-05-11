@@ -1,0 +1,12 @@
+.brands{
+	background-color: #0F0F0F;
+}
+.brands__body{
+	margin: 60px auto 80px;
+}
+.brands__body-imgs{
+	margin: 0px -15px;
+}
+.brands__body-imgs span{
+	padding: 0px 15px;
+}
