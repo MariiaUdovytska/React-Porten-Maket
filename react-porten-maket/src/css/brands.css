@@ -6,7 +6,13 @@
 }
 .brands__body-imgs{
 	margin: 0px -15px;
+	text-align: center;
 }
 .brands__body-imgs span{
 	padding: 0px 15px;
+}
+@media (max-width:569px) {
+	.brands__body{
+		margin: 40px auto 60px;
+	}
 }
