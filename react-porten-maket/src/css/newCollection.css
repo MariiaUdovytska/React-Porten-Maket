@@ -8,13 +8,19 @@
 }
 .newCollection__body-left{
 	flex: 1 1 54.1%;
-	padding: 95px 0px;
+	padding: 95px 85px;
 }
 .newCollection__body-left-title{}
 .newCollection__body-left-watchVersions ul{
 	display: flex;
 	flex-direction: row;
+	margin: 0px -25px;
+	padding-left: 0px;
 }
+.newCollection__body-left-watchVersions li{
+	padding: 0px 25px;
+}
+
 
 .newCollection__body-right{
 	flex: 1 1 45.9%;
