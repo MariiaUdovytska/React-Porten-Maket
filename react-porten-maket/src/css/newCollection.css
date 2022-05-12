@@ -1,3 +1,48 @@
 .newCollection{
 	background-color: #000000;
 }
+.newCollection__body{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.newCollection__body-left{
+	flex: 1 1 54.1%;
+	padding: 95px 0px;
+}
+.newCollection__body-left-title{}
+.newCollection__body-left-watchVersions ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.newCollection__body-right{
+	flex: 1 1 45.9%;
+	background-image: url(../img/newCollection/newCollection.png);
+	background-position: center;
+	background-size: cover;
+}
+.newCollection__body-right-content{
+	position: relative;
+	top: 60%;
+	left: 0;
+	text-align: center;
+}
+.newCollection__body-right-content button{
+	font-size: 1.28rem;
+	background-color: transparent;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 20px;
+	border: solid 1px #fff;
+	transition: all 1s ease;
+}
+.newCollection__body-right-content button:hover{
+	border: solid 1px #000000;
+	background-color: rgba(255, 255, 255, 0.781);
+	color:#000000;
+}
+.newCollection__body-right-content-title{}
+.newCollection__body-right-content-btn{
+
+}
