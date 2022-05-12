@@ -1,0 +1,30 @@
+.watchVersions{}
+.watchVersions__body{}
+.watchVersions__body-watch{
+	background-color: #191B1C;
+	min-width: 260px;
+	min-height: 325px;
+	position: relative;
+}
+.watchVersions__body-watch img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.watchVersions__body-info{}
+.watchVersions__body-info h3{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 1.28rem;
+	line-height: 2.1rem;
+	margin-top: 20px;
+}
+.watchVersions__body-info p{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 1.14rem;
+	font-weight: 700;
+	line-height: 1.8rem;
+	margin-bottom: 0px;
+}
+.watchVersions__body-info-name{}
+.watchVersions__body-info-price{}
