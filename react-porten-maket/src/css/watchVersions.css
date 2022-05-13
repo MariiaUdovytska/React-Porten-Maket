@@ -28,3 +28,22 @@
 }
 .watchVersions__body-info-name{}
 .watchVersions__body-info-price{}
+
+@media (max-width: 767px) {
+	.watchVersions__body-watch{
+		padding: 35px 5px;
+	}
+}
+@media (max-width: 506px){
+	.watchVersions__body-watch{
+		padding: 25px 0px;
+	}
+	.watchVersions__body-info h3{
+		font-size: 1rem;
+		line-height: 1.8rem;
+	}
+	.watchVersions__body-info p{
+		font-size: 0.85rem;
+		line-height: 1.4rem;
+	}
+}

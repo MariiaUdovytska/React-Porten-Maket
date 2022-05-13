@@ -12,7 +12,7 @@
 }
 .newCollection__body-left-title{}
 .newCollection__body-left-watchVersions{
-	margin: opx -25px;
+	margin: 0px -25px;
 }
 .newCollection__body-left-watchVersions ul{
 	display: flex;
@@ -56,4 +56,65 @@
 .newCollection__body-right-content-title{}
 .newCollection__body-right-content-btn{
 
+}
+@media (max-width: 1500px) {
+	.newCollection__body-left{
+		padding: 75px 65px;
+	}
+}
+@media (max-width: 1310px) {
+	.newCollection__body-left{
+		padding: 55px 45px;
+	}
+	.newCollection__body-left-watchVersions{
+		margin: 0px -15px;
+	}
+	.newCollection__body-left-watchVersions li{
+		padding: 0px 15px;
+	}
+}
+@media (max-width: 1070px) {
+	.newCollection__body-left{
+		padding: 35px 25px;
+	}
+	.newCollection__body-left-watchVersions{
+		margin: 0px -8px;
+	}
+	.newCollection__body-left-watchVersions li{
+		padding: 0px 8px;
+	}
+}
+@media (max-width: 937px) {
+	.newCollection__body{
+		display: flex;
+		flex-direction: column;
+	}
+	.newCollection__body-left-watchVersions{
+		margin: 0px -15px;
+	}
+	.newCollection__body-left-watchVersions li{
+		padding: 0px 15px;
+	}
+	.newCollection__body-right{
+		flex: 1 1 300px;
+		background-position: 0 5%;
+	}
+	.newCollection__body-right-content{
+		position: relative;
+		top: 30%;
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.newCollection__body-left-watchVersions{
+		margin: 0px -8px;
+	}
+	.newCollection__body-left-watchVersions li{
+		padding: 0px 8px;
+	}
+}
+@media (max-width: 376px) {
+	.newCollection__body-right-content-title{
+		font-size: 2.27rem;
+	}
 }
