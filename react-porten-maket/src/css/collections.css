@@ -41,3 +41,49 @@
 	background-color: rgba(255, 255, 255, 0.781);
 	color:#000000;
 }
+
+@media (max-width: 1500px) {
+	.collections__body-right{
+		padding: 80px 0px;
+	}
+}
+@media (max-width: 1310px) {
+	.collections__body-right{
+		padding: 60px 0px;
+	}
+	.collections__body-right-content{
+		width: 56.2%;
+	}
+}
+@media (max-width: 1070px) {
+	.collections__body-right{
+		padding: 40px 0px;
+	}
+	.collections__body-right-content{
+		width: 61.2%;
+	}
+}
+@media (max-width: 937px) {
+	.collections__body{
+		display: flex;
+		flex-direction: column;
+	}
+	.collections__body-left{
+		flex: 1 1 600px;
+	}
+}
+@media (max-width: 767px) {
+	.collections__body-right-content{
+		width: 71.2%;
+	}
+}
+@media (max-width: 550px) {
+	.collections__body-right-content{
+		width: 81.2%;
+	}
+}
+@media (max-width: 477px) {
+	.collections__body-right-content{
+		width: 90.2%;
+	}
+}
