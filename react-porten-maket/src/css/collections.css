@@ -1,0 +1,43 @@
+.collections{
+	background-color: #000000;
+}
+.collections__body{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.collections__body-left{
+	flex: 1 1 45.9%;
+	background-image: url(../img//collections/collections.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.collections__body-right{
+	flex: 1 1 54.1%;
+	padding: 100px 0px;
+}
+.collections__body-right-content{
+	text-align: center;
+	width: 51.2%;
+	margin: 0px auto;
+}
+.collections__body-right-content p{
+	margin-bottom: 0px;
+	line-height: 1.9rem;
+}
+.collections__body-right-content button{
+	font-size: 1.28rem;
+	background-color: transparent;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 60px;
+	border: solid 1px #fff;
+	transition: all 1s ease;
+}
+.collections__body-right-content button:hover{
+	border: solid 1px #000000;
+	background-color: rgba(255, 255, 255, 0.781);
+	color:#000000;
+}
