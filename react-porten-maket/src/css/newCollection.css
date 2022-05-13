@@ -11,11 +11,16 @@
 	padding: 95px 85px;
 }
 .newCollection__body-left-title{}
+.newCollection__body-left-watchVersions{
+	margin: opx -25px;
+}
 .newCollection__body-left-watchVersions ul{
 	display: flex;
 	flex-direction: row;
-	margin: 0px -25px;
+	margin-bottom: 0rem;
 	padding-left: 0px;
+	width: 100%;
+	justify-content: space-between;
 }
 .newCollection__body-left-watchVersions li{
 	padding: 0px 25px;
