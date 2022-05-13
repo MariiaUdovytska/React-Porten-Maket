@@ -1,7 +1,5 @@
 import React from 'react';
 import './css/watchVersions.css';
-import watch from './img/watch/watch.png';
-
 
 class WatchVersions extends React.Component {
 	constructor(props) {
