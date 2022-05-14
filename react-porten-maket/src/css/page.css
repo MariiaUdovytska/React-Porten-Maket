@@ -39,13 +39,18 @@
 	margin: 40px auto 0px;
 }
 
-/* 
-@media (max-width: 909px){
+
+@media (max-width: 341px){
 	.titleM{
-		margin-bottom: 40px;
-		text-align: center;
+		font-size: 2.27rem;
+		line-height: 2rem;
 	}
-} */
+}
+@media (max-width: 295px){
+	.titleM{
+		font-size: 1.9rem;
+	}
+}
 
 .testM{
 	color: black;

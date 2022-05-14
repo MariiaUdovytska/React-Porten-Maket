@@ -37,7 +37,7 @@
 	color: #fff;
 	padding: 10px 20px;
 	margin: 60px auto 0px;
-	width: 311px;
+	max-width: 311px;
 	border: solid 1px #fff;
 	transition: all 1s ease;
 }
@@ -86,6 +86,11 @@
 }
 
 @media (max-width: 477px) {
+	.collections__body-right-content{
+		width: 90.2%;
+	}
+}
+@media (max-width: 348px) {
 	.collections__body-right-content{
 		width: 90.2%;
 	}

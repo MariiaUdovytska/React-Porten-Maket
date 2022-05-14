@@ -138,6 +138,8 @@
 	.footer__body{
 		display: flex;
 		flex-direction: column;
+		text-align: center;
+		align-items: center;
 	}
 	.footer__body-title{
 		margin-bottom: 10px;
