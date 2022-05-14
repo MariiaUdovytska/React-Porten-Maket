@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Porten-Maket/static/css/main.d36ebb16.css",
+    "main.js": "/React-Porten-Maket/static/js/main.abe5e85f.js",
+    "static/js/787.372d5c12.chunk.js": "/React-Porten-Maket/static/js/787.372d5c12.chunk.js",
+    "static/media/fullScreen.png": "/React-Porten-Maket/static/media/fullScreen.3a7d5adee0a326090894.png",
+    "static/media/newCollection.png": "/React-Porten-Maket/static/media/newCollection.fa447008121821e86af2.png",
+    "static/media/footer.png": "/React-Porten-Maket/static/media/footer.e9b05e3b2214c661e5f8.png",
+    "static/media/collections.png": "/React-Porten-Maket/static/media/collections.e7f8e0ae5c817c2dbd31.png",
+    "static/media/PostNoBillsJaffna-SemiBold.ttf": "/React-Porten-Maket/static/media/PostNoBillsJaffna-SemiBold.105e8e4b217a564b933c.ttf",
+    "static/media/bootstrap-icons.woff?": "/React-Porten-Maket/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Porten-Maket/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/brandss.svg": "/React-Porten-Maket/static/media/brandss.7d1e4a1b7e88e9036eb64b4516826f3b.svg",
+    "static/media/watch.png": "/React-Porten-Maket/static/media/watch.f7cd936257d3568f2cba.png",
+    "static/media/call.svg": "/React-Porten-Maket/static/media/call.3bb4eb1998a25e657d307722c6f95b15.svg",
+    "index.html": "/React-Porten-Maket/index.html",
+    "static/media/singInUp.svg": "/React-Porten-Maket/static/media/singInUp.8f00960acf82cef79855b2078f788758.svg",
+    "main.d36ebb16.css.map": "/React-Porten-Maket/static/css/main.d36ebb16.css.map",
+    "main.abe5e85f.js.map": "/React-Porten-Maket/static/js/main.abe5e85f.js.map",
+    "787.372d5c12.chunk.js.map": "/React-Porten-Maket/static/js/787.372d5c12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36ebb16.css",
+    "static/js/main.abe5e85f.js"
+  ]
+}
