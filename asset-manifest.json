@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/React-Porten-Maket/static/css/main.d36ebb16.css",
+    "main.css": "/React-Porten-Maket/static/css/main.2734529f.css",
     "main.js": "/React-Porten-Maket/static/js/main.abe5e85f.js",
     "static/js/787.372d5c12.chunk.js": "/React-Porten-Maket/static/js/787.372d5c12.chunk.js",
-    "static/media/fullScreen.png": "/React-Porten-Maket/static/media/fullScreen.3a7d5adee0a326090894.png",
+    "static/media/fullScreen.png": "/React-Porten-Maket/static/media/fullScreen.defce4814f8238f7fab5.png",
     "static/media/newCollection.png": "/React-Porten-Maket/static/media/newCollection.fa447008121821e86af2.png",
     "static/media/footer.png": "/React-Porten-Maket/static/media/footer.e9b05e3b2214c661e5f8.png",
     "static/media/collections.png": "/React-Porten-Maket/static/media/collections.e7f8e0ae5c817c2dbd31.png",
@@ -15,12 +15,12 @@
     "static/media/call.svg": "/React-Porten-Maket/static/media/call.3bb4eb1998a25e657d307722c6f95b15.svg",
     "index.html": "/React-Porten-Maket/index.html",
     "static/media/singInUp.svg": "/React-Porten-Maket/static/media/singInUp.8f00960acf82cef79855b2078f788758.svg",
-    "main.d36ebb16.css.map": "/React-Porten-Maket/static/css/main.d36ebb16.css.map",
+    "main.2734529f.css.map": "/React-Porten-Maket/static/css/main.2734529f.css.map",
     "main.abe5e85f.js.map": "/React-Porten-Maket/static/js/main.abe5e85f.js.map",
     "787.372d5c12.chunk.js.map": "/React-Porten-Maket/static/js/787.372d5c12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d36ebb16.css",
+    "static/css/main.2734529f.css",
     "static/js/main.abe5e85f.js"
   ]
 }
